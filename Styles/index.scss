@@ -2,11 +2,14 @@
 
 @import 'header';
 @import 'main';
-@import 'grid';
+@import 'grid-text';
+@import 'bottom';
+@import 'footer';
 
 
 body{
   font-family: fonts.$main-font;
+  margin: 0 auto;
 }
 
 

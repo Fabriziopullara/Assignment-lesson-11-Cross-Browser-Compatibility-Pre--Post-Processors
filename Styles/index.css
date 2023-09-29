@@ -31,7 +31,7 @@
   padding: 15px;
 }
 
-main {
+.upper-part {
   display: flex;
   padding-top: 50px;
   padding-left: 50px;
@@ -39,7 +39,10 @@ main {
   flex-wrap: wrap;
   width: 100%;
 }
-main h2 {
+.upper-part .main-right {
+  padding-top: 20px;
+}
+.upper-part h2 {
   max-width: 635px;
   color: #111;
   font-size: 40px;
@@ -47,15 +50,15 @@ main h2 {
   font-weight: 700;
   line-height: 60px; /* 150% */
 }
-main h5 {
-  color: #4A4FF2;
+.upper-part h5 {
+  color: #4a4ff2;
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: -0.423px;
 }
-main p {
+.upper-part p {
   color: #111;
   font-size: 18px;
   font-style: italic;
@@ -67,7 +70,6 @@ main p {
   display: grid;
   grid-template-columns: repeat(9, 1fr);
   grid-template-rows: repeat(32, 1fr);
-  height: 100vh;
   max-width: 1110px;
   width: 100%;
   height: 1960px;
@@ -122,6 +124,79 @@ main p {
   grid-row: 27/32;
 }
 
+.text-container {
+  padding-left: 50px;
+  padding-top: 109px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1079px;
+  width: 100%;
+  max-height: 106px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.text-container p {
+  color: #111;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38px; /* 135.714% */
+  max-width: 635px;
+  height: 106px;
+  flex-shrink: 0;
+}
+.text-container li {
+  list-style: none;
+  color: #111;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.6;
+  padding-bottom: 8px;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+  width: 1110px;
+  height: 411px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.bottom-container .bottom,
+.bottom-container .bottom-right,
+.bottom-container .date {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.divider-2 {
+  padding-left: 50px;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1110px;
+  height: 23px;
+  padding-top: 50px;
+  flex-wrap: wrap;
+}
+.foot ul {
+  list-style: none;
+  color: #111;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.346px;
+}
+
 body {
   font-family: "Mulish", sans-serif;
+  margin: 0 auto;
 }
