@@ -11,6 +11,14 @@
   ul {
     display: flex;
     list-style: none;
+    
+  }
+  
+  li{
+    margin-right: 10px;
+  }
+  a {
+    text-decoration: none;
     color: #111;
     font-size: 18px;
     font-style: normal;
@@ -18,12 +26,9 @@
     line-height: normal;
     letter-spacing: -0.346px;
   }
-  
-  li{
-    margin-right: 10px;
-  }
-  
 }
+  
+
 footer{
   padding-bottom: 20px;
 }

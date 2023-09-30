@@ -15,13 +15,6 @@
   padding-top: 20px;
 }
 .nav-bar-list {
-  color: #111;
-  font-family: Mulish;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: -0.346px;
   list-style: none;
   display: flex;
   justify-content: space-around;
@@ -29,6 +22,15 @@
 }
 .nav-bar li {
   padding: 15px;
+}
+.nav-bar a {
+  text-decoration: none;
+  color: #111;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.346px;
 }
 
 .upper-part {
@@ -190,15 +192,18 @@
 .foot ul {
   display: flex;
   list-style: none;
+}
+.foot li {
+  margin-right: 10px;
+}
+.foot a {
+  text-decoration: none;
   color: #111;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: -0.346px;
-}
-.foot li {
-  margin-right: 10px;
 }
 
 footer {
